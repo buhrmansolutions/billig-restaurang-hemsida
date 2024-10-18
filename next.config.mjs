@@ -3,10 +3,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "png.pngtree.com",
+        hostname: "img.freepik.com",
       },
       {
-        hostname: "media.istockphoto.com",
+        hostname: "images.unsplash.com",
       },
       {
         hostname: "www.foodiesfeed.com",

@@ -6,22 +6,39 @@ import "./index.css";
 
 export const Footer = () => {
   const { footer, menuItems } = useContext(RestaurantContext);
-  const { embeddedMap, openingHours, instagram, facebook } = footer;
+  const { embeddedMap, openingHours, instagram, facebook, phone, email } =
+    footer;
   return (
     <div
       id="footer"
       className="px-56 w-full py-16 mt-24 flex flex-row justify-between gap-16"
     >
       {openingHours && (
-        <div className="flex-1">
+        <div className="flex-1 ">
           <h3 className="mb-8">Öppettider</h3>
           {openingHours.map(({ label, time }) => (
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between w-56">
               <p>{label}</p>
               <p>{time}</p>
             </div>
           ))}
-          <div></div>
+          {(phone || email) && (
+            <>
+              <h3 className="my-8">Kontakt</h3>
+              {phone && (
+                <div className="flex flex-row justify-between w-56">
+                  <p>Telefon</p>
+                  <a href={`tel:${phone}`}>{phone}</a>
+                </div>
+              )}
+              {email && (
+                <div className="flex flex-row justify-between w-56">
+                  <p>E-mail</p>
+                  <a href={`mailto:${email}`}>{email}</a>
+                </div>
+              )}
+            </>
+          )}
         </div>
       )}
       <div className="flex-1">

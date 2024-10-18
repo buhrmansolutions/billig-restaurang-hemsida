@@ -28,6 +28,10 @@ h3 {
   font-weight: var(--bold);
 }
 
+img {
+  height: unset;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

@@ -1,5 +1,7 @@
 header {
-  background-color: var(--dark-gray);
+  position: absolute;
+  z-index: 10;
+  background-color: transparent;
   color: var(--white);
   font-size: var(--font-size-medium);
 }

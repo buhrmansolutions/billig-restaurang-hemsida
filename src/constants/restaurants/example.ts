@@ -1,8 +1,8 @@
 import { Restaurant } from "@/types";
 
 export const example: Restaurant = {
-  name: "Example restaurant",
-  logo: "https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-chef-restaurant-logo-png-image_6136204.png",
+  name: "Restaurang",
+  logo: "https://img.freepik.com/free-vector/creative-barbecue-logo-template_23-2149017951.jpg?t=st=1729258631~exp=1729262231~hmac=f2b1adce32b96572686796517c53b5aee27e18f1617ce2452ed3c0a37c6f739a&w=1480",
   styling: {
     primaryColor: "#4A6F44",
     secondaryColor: "grey",
@@ -13,9 +13,9 @@ export const example: Restaurant = {
     { label: "Kontakt", src: "contact" },
   ],
   wallpaper: {
-    slogan: "Sveriges bästa gatukök",
+    slogan: "Din nya favoritrestaurang",
     image:
-      "https://media.istockphoto.com/id/1191080960/photo/traditional-turkish-breakfast-and-people-taking-various-food-wide-composition.jpg?s=612x612&w=0&k=20&c=PP5ejMisEwzcLWrNmJ8iPPm_u-4P6rOWHEDpBPL2n7Q=",
+      "https://images.unsplash.com/photo-1477506252414-b2954dbdacf3?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     buttons: [
       { label: "Meny", src: "menu" },
       {
@@ -27,10 +27,12 @@ export const example: Restaurant = {
   about: {
     title: "Välkommen till din favoritrestaurang",
     image:
-      "https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg",
+      "https://images.unsplash.com/photo-1444731961956-751ed90465a5?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     sections: [
-      "Välkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din",
-      "Välkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurang",
+      "Välkommen till vår nyöppnade restaurang i hjärtat av Stockholm! Här förenar vi traditionella smaker med moderna inslag för att skapa en unik matupplevelse. Vår passion för mat och service genomsyrar allt vi gör, och vi strävar alltid efter att överträffa dina förväntningar. Vår restaurang är inte bara en plats för att äta; det är en destination för att fira livet, dela stunder med vänner och familj och njuta av god mat i en inbjudande atmosfär.",
+      "Vi erbjuder en meny som inspireras av lokala råvaror och internationella influenser, vilket ger dig en smakresa du sent kommer att glömma. Våra rätter är noggrant utvalda och skapade med kärlek av vårt team av erfarna kockar, som arbetar med stor omsorg för att varje rätt ska vara en fest för smaklökarna. Vår vision är att varje besök ska vara en ny upptäcktsfärd i smaken, där vi erbjuder allt från läckra förrätter till utsökta desserter.",
+      "För att komplettera din måltid har vi också en noggrant utvald vinlista som erbjuder något för alla, oavsett om du är en vinentusiast eller bara vill njuta av något gott. Vårt engagerade servitörsteam är här för att guida dig och hjälpa till med att välja den perfekta drycken som passar din måltid.",
+      "Välkommen till en plats där god mat och härlig atmosfär går hand i hand. Vi ser fram emot att få dela vår passion för mat med dig och skapa minnen som varar länge. Tillsammans kommer vi att göra varje måltid till en oförglömlig upplevelse!",
     ],
   },
   menu: [
@@ -315,8 +317,8 @@ export const example: Restaurant = {
     facebook: "www.facebook.com",
     instagram: "www.instagram.com",
     openingHours: [
-      { label: "Mån-Fre,", time: "08-18" },
-      { label: "Lör,", time: "10-18" },
+      { label: "Mån-Fre", time: "08-18" },
+      { label: "Lör", time: "10-18" },
       { label: "Sön", time: "Stängt" },
     ],
     phone: "07070707007",

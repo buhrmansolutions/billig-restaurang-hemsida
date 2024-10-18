@@ -9,10 +9,10 @@ export const Header = () => {
 
   return (
     <header className="w-full px-56 py-4 flex flex-row justify-between items-center">
-      <Image src={logo} alt={logo} width={100} height={100} />
+      <Image src={logo} alt={logo} width={70} height={70} />
       <div className="flex gap-x-24">
         {menuItems.map(({ src, label }) => (
-          <Link className="font-medium" href={"#" + src}>
+          <Link className="font-medium font-semibold" href={"#" + src}>
             {label}
           </Link>
         ))}
