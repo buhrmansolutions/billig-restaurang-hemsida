@@ -8,6 +8,7 @@ import { Wallpaper } from "@/components/wallpaper";
 import { About } from "@/components/about";
 import { Menu } from "@/components/menu";
 import { Footer } from "@/components/footer";
+import { Copyright } from "@/components/copyright";
 
 type Props = {
   params: {
@@ -30,6 +31,7 @@ export default function Page({ params }: Props) {
           <About />
           <Menu />
           <Footer />
+          <Copyright />
         </main>
       </div>
     </RestaurantContext.Provider>
