@@ -25,4 +25,13 @@ export const example: Restaurant = {
       },
     ],
   },
+  about: {
+    title: "Välkommen till din favoritrestaurang",
+    image:
+      "https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg",
+    sections: [
+      "Välkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din",
+      "Välkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurangVälkommen till din favoritrestaurang",
+    ],
+  },
 };

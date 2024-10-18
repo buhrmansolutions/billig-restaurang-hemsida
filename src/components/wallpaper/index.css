@@ -6,7 +6,9 @@
   filter: brightness(30%);
 }
 
-#wallpaper h1,
-h2 {
+#wallpaper h1 {
+  color: var(--white);
+}
+#wallpaper h2 {
   color: var(--white);
 }

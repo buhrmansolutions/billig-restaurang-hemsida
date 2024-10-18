@@ -17,4 +17,9 @@ export type Restaurant = {
       src: string;
     }>;
   };
+  about: {
+    title: string;
+    image?: string;
+    sections: Array<string>;
+  };
 };

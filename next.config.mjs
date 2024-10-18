@@ -8,6 +8,9 @@ const nextConfig = {
       {
         hostname: "media.istockphoto.com",
       },
+      {
+        hostname: "www.foodiesfeed.com",
+      },
     ],
   },
 };

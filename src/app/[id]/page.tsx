@@ -5,6 +5,7 @@ import { Restaurant } from "@/types";
 import { Header } from "@/components";
 import { RestaurantContext } from "@/contexts";
 import { Wallpaper } from "@/components/wallpaper";
+import { About } from "@/components/about";
 
 type Props = {
   params: {
@@ -24,6 +25,7 @@ export default function Page({ params }: Props) {
         <main className="flex flex-col row-start-2 items-center sm:items-start">
           <Header />
           <Wallpaper />
+          <About />
         </main>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
           <a

@@ -1,0 +1,7 @@
+#about p {
+  color: var(--gray);
+}
+
+#about p:not(:first-child) {
+  margin-top: 1rem;
+}
