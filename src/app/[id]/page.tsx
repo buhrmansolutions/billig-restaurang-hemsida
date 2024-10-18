@@ -4,6 +4,7 @@ import { restaurants } from "@/constants";
 import { Restaurant } from "@/types";
 import { Header } from "@/components";
 import { RestaurantContext } from "@/contexts";
+import { Wallpaper } from "@/components/wallpaper";
 
 type Props = {
   params: {
@@ -20,8 +21,9 @@ export default function Page({ params }: Props) {
   return (
     <RestaurantContext.Provider value={restaurant}>
       <div className="min-h-screen">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <main className="flex flex-col row-start-2 items-center sm:items-start">
           <Header />
+          <Wallpaper />
         </main>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
           <a

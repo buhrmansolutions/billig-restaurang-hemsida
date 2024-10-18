@@ -1,0 +1,12 @@
+#wallpaper {
+  height: 600px;
+}
+
+#wallpaper > img {
+  filter: brightness(30%);
+}
+
+#wallpaper h1,
+h2 {
+  color: var(--white);
+}

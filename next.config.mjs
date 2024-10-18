@@ -5,6 +5,9 @@ const nextConfig = {
       {
         hostname: "png.pngtree.com",
       },
+      {
+        hostname: "media.istockphoto.com",
+      },
     ],
   },
 };
