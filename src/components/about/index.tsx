@@ -7,7 +7,7 @@ export const About = () => {
   const { about } = useContext(RestaurantContext);
   const { image, sections, title } = about;
   return (
-    <div id="about" className="flex flex-row mt-24 px-56 gap-x-24">
+    <div id="about" className="flex flex-row pt-24 px-56 gap-x-24">
       <div className="mr-12 flex-1">
         <h2 className="mb-8">{title}</h2>
         {sections.map((section) => (

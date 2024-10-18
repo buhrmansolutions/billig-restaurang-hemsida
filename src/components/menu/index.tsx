@@ -54,7 +54,7 @@ export const Menu = () => {
   >;
 
   return (
-    <div id="menu" className="mt-24 px-56 w-full">
+    <div id="menu" className="pt-24 px-56 w-full">
       <div className="flex flex-row w-full gap-x-8 justify-center mb-16">
         {menu.map(({ title }, index) => (
           <h3

@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "img.freepik.com",
+        hostname: "www.logoai.com",
       },
       {
         hostname: "images.unsplash.com",

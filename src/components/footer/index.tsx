@@ -45,7 +45,7 @@ export const Footer = () => {
         <div className="flex flex-row gap-x-4 w-full justify-center">
           {menuItems.map(({ label, src }) => (
             <h3>
-              <Link href={"#" + src}>{label}</Link>
+              <Link href={src}>{label}</Link>
             </h3>
           ))}
         </div>

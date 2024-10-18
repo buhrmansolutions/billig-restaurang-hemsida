@@ -2,25 +2,25 @@ import { Restaurant } from "@/types";
 
 export const example: Restaurant = {
   name: "Restaurang",
-  logo: "https://img.freepik.com/free-vector/creative-barbecue-logo-template_23-2149017951.jpg?t=st=1729258631~exp=1729262231~hmac=f2b1adce32b96572686796517c53b5aee27e18f1617ce2452ed3c0a37c6f739a&w=1480",
+  logo: "https://www.logoai.com/oss/icons/2021/10/27/l1eXTxm2w7TM6t9.png",
   styling: {
     primaryColor: "#4A6F44",
     secondaryColor: "grey",
   },
   menuItems: [
-    { label: "Om oss", src: "about-us" },
-    { label: "Meny", src: "menu" },
-    { label: "Kontakt", src: "contact" },
+    { label: "Om oss", src: "#about" },
+    { label: "Meny", src: "#menu" },
+    { label: "Kontakt", src: "#footer" },
   ],
   wallpaper: {
     slogan: "Din nya favoritrestaurang",
     image:
       "https://images.unsplash.com/photo-1477506252414-b2954dbdacf3?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     buttons: [
-      { label: "Meny", src: "menu" },
+      { label: "Meny", src: "#menu" },
       {
         label: "Kontakt",
-        src: "contact",
+        src: "#footer",
       },
     ],
   },

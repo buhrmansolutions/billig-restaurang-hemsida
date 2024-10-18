@@ -12,7 +12,7 @@ export const Header = () => {
       <Image src={logo} alt={logo} width={70} height={70} />
       <div className="flex gap-x-24">
         {menuItems.map(({ src, label }) => (
-          <Link className="font-medium font-semibold" href={"#" + src}>
+          <Link className="font-medium font-semibold" href={src}>
             {label}
           </Link>
         ))}
