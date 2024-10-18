@@ -1,0 +1,7 @@
+.category:not(:first-child) {
+  margin-top: 20px;
+}
+
+i {
+  color: var(--light-gray);
+}

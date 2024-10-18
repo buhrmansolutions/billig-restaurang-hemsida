@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --light-gray: rgb(170, 170, 170);
   --gray: rgb(113, 113, 113);
   --dark-gray: #333;
   --white: #fff;
@@ -20,6 +21,10 @@ h1 {
 }
 h2 {
   font-size: var(--font-size-large);
+  font-weight: var(--bold);
+}
+h3 {
+  font-size: var(--font-size-medium);
   font-weight: var(--bold);
 }
 

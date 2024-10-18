@@ -1,3 +1,11 @@
+export type MenuItem = {
+  category: string;
+  items: Array<{
+    title: string;
+    price: string;
+    description: string;
+  }>;
+};
 export type Restaurant = {
   name: string;
   logo: string;
@@ -22,4 +30,8 @@ export type Restaurant = {
     image?: string;
     sections: Array<string>;
   };
+  menu: Array<{
+    title?: string;
+    items: Array<MenuItem>;
+  }>;
 };

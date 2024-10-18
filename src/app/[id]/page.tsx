@@ -6,6 +6,7 @@ import { Header } from "@/components";
 import { RestaurantContext } from "@/contexts";
 import { Wallpaper } from "@/components/wallpaper";
 import { About } from "@/components/about";
+import { Menu } from "@/components/menu";
 
 type Props = {
   params: {
@@ -26,6 +27,7 @@ export default function Page({ params }: Props) {
           <Header />
           <Wallpaper />
           <About />
+          <Menu />
         </main>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
           <a
