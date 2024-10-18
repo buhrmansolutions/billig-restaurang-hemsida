@@ -1,0 +1,5 @@
+header {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  font-size: var(--font-size-medium);
+}
