@@ -321,9 +321,9 @@ export const example: Restaurant = {
       { label: "Lör", time: "10-18" },
       { label: "Sön", time: "Stängt" },
     ],
-    phone: "07070707007",
-    email: "face@gmail.com",
+    phone: "0707070707",
+    email: "abc@example-domain.com",
     embeddedMap:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.1926194013163!2d17.99888117730137!3d59.32973791098788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7765715f610d%3A0x66bfe54ad4eaebad!2sRestaurang%20Bolognese!5e0!3m2!1sen!2sse!4v1729255223642!5m2!1sen!2sse",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.0069909146202!2d18.00037977730163!3d59.33283711073989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7628580c55c7%3A0xc7530a2aaa39b6d6!2sKristineberg!5e0!3m2!1sen!2sse!4v1729262029347!5m2!1sen!2sse",
   },
 };

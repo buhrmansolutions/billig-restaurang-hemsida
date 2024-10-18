@@ -55,3 +55,17 @@ body {
     text-wrap: balance;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .px-56 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .pt-24 {
+    padding-top: 24px;
+  }
+
+  :root {
+    --font-size-extra-large: 48px;
+  }
+}

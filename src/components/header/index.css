@@ -5,3 +5,70 @@ header {
   color: var(--white);
   font-size: var(--font-size-medium);
 }
+#mobile-items {
+  display: none;
+  background-color: var(--dark-gray);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
+}
+
+.hamburger {
+  display: none;
+  z-index: 100;
+  width: 5rem;
+  height: 5rem;
+  /*   position: fixed;
+    top: 2rem;
+    right: 3rem; */
+  cursor: pointer;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line {
+  width: 100%;
+  height: 0.3rem;
+  background-color: var(--white);
+  border-radius: 0.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.clicked .line-1 {
+  transform: rotateZ(-405deg) translate(-0.8rem, 0.6rem);
+}
+
+.clicked .line-2 {
+  opacity: 0;
+}
+
+.clicked .line-3 {
+  transform: rotateZ(405deg) translate(-0.8rem, -0.6rem);
+}
+
+@media screen and (max-width: 640px) {
+  .hamburger {
+    display: flex;
+  }
+  #desktop-items {
+    display: none;
+  }
+  #mobile-items {
+    display: flex;
+    text-wrap: nowrap;
+  }
+  #mobile-items.closed {
+    width: 0%;
+  }
+  #mobile-items.open {
+    width: 100%;
+  }
+}

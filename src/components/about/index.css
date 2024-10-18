@@ -5,3 +5,22 @@
 #about p:not(:first-child) {
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 640px) {
+  #about {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  #about > div:first-child {
+    margin-right: 0px;
+  }
+  #about .flex-1 {
+    flex: unset;
+  }
+  #about > div:last-child {
+    height: 300px;
+  }
+  #about img {
+    height: 300px !important;
+  }
+}

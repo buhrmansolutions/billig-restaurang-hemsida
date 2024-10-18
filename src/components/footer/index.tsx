@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <div
       id="footer"
-      className="px-56 w-full py-16 mt-24 flex flex-row justify-between gap-16"
+      className="px-56 w-full py-16 flex flex-row justify-between gap-16"
     >
       {openingHours && (
         <div className="flex-1 ">

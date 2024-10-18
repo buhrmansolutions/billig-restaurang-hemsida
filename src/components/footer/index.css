@@ -2,3 +2,13 @@
   background-color: var(--dark-gray);
   color: var(--white);
 }
+
+@media screen and (max-width: 640px) {
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer .justify-between {
+    width: 100%;
+  }
+}
