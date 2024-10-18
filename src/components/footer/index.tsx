@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="flex-1 ">
           <h3 className="mb-8">Öppettider</h3>
           {openingHours.map(({ label, time }) => (
-            <div className="flex flex-row justify-between w-56">
+            <div className="flex flex-row justify-between w-56" key={label}>
               <p>{label}</p>
               <p>{time}</p>
             </div>
@@ -44,7 +44,7 @@ export const Footer = () => {
       <div className="flex-1">
         <div className="flex flex-row gap-x-4 w-full justify-center">
           {menuItems.map(({ label, src }) => (
-            <h3>
+            <h3 key={label}>
               <Link href={src}>{label}</Link>
             </h3>
           ))}
@@ -61,7 +61,7 @@ export const Footer = () => {
             </Link>
           )}
           {facebook && (
-            <Link href={facebook}>
+            <Link href={facebook} target="_blank">
               <Image
                 src="/facebook.png"
                 width={20}

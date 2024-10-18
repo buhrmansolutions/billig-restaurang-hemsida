@@ -9,7 +9,7 @@ export const Menu = () => {
 
   const formattedMenuItems = menu[activeMenu].items.reduce(
     (acc: Array<MenuItem | string>, curr: MenuItem | string) => {
-      // @ts-ignore
+      // @ts-expect-error Fix for now
       return [...acc, curr.category, ...curr.items];
     },
     [] as Array<MenuItem | string>
@@ -61,6 +61,7 @@ export const Menu = () => {
       <div className="flex flex-row w-full gap-x-8 justify-center mb-16">
         {menu.map(({ title }, index) => (
           <h3
+            key={title}
             onClick={() => setActiveMenu(index)}
             style={{
               cursor: menu.length > 0 ? "pointer" : "",
@@ -78,12 +79,19 @@ export const Menu = () => {
         {Array(numberOfColumns)
           .fill("")
           .map((_item, columnIndex) => (
-            <div className="flex flex-col gap-y-4 flex-1">
+            <div className="flex flex-col gap-y-4 flex-1" key={columnIndex}>
               {columns[columnIndex].map((columnItem) => {
                 if (typeof columnItem === "string")
-                  return <p className="category font-semibold">{columnItem}</p>;
+                  return (
+                    <p key={columnItem} className="category font-semibold">
+                      {columnItem}
+                    </p>
+                  );
                 return (
-                  <div className="flex flex-row justify-between gap-x-4">
+                  <div
+                    className="flex flex-row justify-between gap-x-4"
+                    key={columnItem.title}
+                  >
                     <div>
                       <p>{columnItem.title}</p>
                       <i>{columnItem.description}</i>

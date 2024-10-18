@@ -19,7 +19,9 @@ export const Wallpaper = () => {
         </div>
         <div className="gap-x-4 flex">
           {buttons.map(({ label, src }) => (
-            <Button onClick={() => router.push(src)}>{label}</Button>
+            <Button key={label} onClick={() => router.push(src)}>
+              {label}
+            </Button>
           ))}
         </div>
       </div>

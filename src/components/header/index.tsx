@@ -13,7 +13,7 @@ export const Header = () => {
       <Image src={logo} alt={logo} width={70} height={70} />
       <div id="desktop-items" className="flex gap-x-24">
         {menuItems.map(({ src, label }) => (
-          <Link className="font-medium font-semibold" href={src}>
+          <Link key={label} className="font-medium font-semibold" href={src}>
             {label}
           </Link>
         ))}
@@ -32,6 +32,7 @@ export const Header = () => {
       >
         {menuItems.map(({ src, label }) => (
           <Link
+            key={label}
             className="font-medium font-semibold"
             href={src}
             onClick={() => setShowMenuItems(false)}

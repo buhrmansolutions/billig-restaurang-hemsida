@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { restaurants } from "@/constants";
 import { Restaurant } from "@/types";
 import { Header } from "@/components";

@@ -11,7 +11,7 @@ export const About = () => {
       <div className="mr-12 flex-1">
         <h2 className="mb-8">{title}</h2>
         {sections.map((section) => (
-          <p>{section}</p>
+          <p key={section}>{section}</p>
         ))}
       </div>
       {image && (
