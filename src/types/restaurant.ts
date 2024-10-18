@@ -34,4 +34,12 @@ export type Restaurant = {
     title?: string;
     items: Array<MenuItem>;
   }>;
+  footer: {
+    facebook?: string;
+    instagram?: string;
+    openingHours?: Array<{ label: string; time: string }>;
+    phone?: string;
+    email?: string;
+    embeddedMap?: string;
+  };
 };
