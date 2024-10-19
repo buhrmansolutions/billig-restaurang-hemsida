@@ -1,7 +1,4 @@
-import { RestaurantContext } from "@/contexts";
-import Image from "next/image";
 import Link from "next/link";
-import { useContext } from "react";
 import { Button } from "../button";
 import "./index.css";
 
