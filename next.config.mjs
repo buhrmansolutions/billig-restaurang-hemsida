@@ -11,6 +11,9 @@ const nextConfig = {
       {
         hostname: "www.foodiesfeed.com",
       },
+      {
+        hostname: "drive.usercontent.google.com",
+      },
     ],
   },
 };

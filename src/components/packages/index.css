@@ -1,0 +1,14 @@
+#packages h3 {
+  font-size: var(--font-size-large);
+}
+
+@media screen and (max-width: 640px) {
+  #packages {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  #packages > div {
+    width: 100%;
+  }
+}

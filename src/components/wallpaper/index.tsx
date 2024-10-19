@@ -13,7 +13,7 @@ export const Wallpaper = () => {
     <div id="wallpaper" className="relative w-full">
       <Image src={image} layout="fill" objectFit="cover" alt="large-image" />
       <div className="absolute flex-col w-full h-full flex justify-center items-center gap-y-12">
-        <div className="flex-col flex items-center">
+        <div className="flex-col flex items-center text-center">
           <h2>{slogan}</h2>
           <h1>{name}</h1>
         </div>

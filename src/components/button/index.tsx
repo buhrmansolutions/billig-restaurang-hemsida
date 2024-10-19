@@ -5,16 +5,17 @@ import "./index.css";
 type Props = {
   children: string | React.ReactNode;
   variant?: "primary" | "secondary";
-  onClick: () => void;
+  onClick?: () => void;
+  style?: object;
 };
-export const Button = ({ children, variant, onClick }: Props) => {
+export const Button = ({ children, variant, onClick, style }: Props) => {
   const { styling } = useContext(RestaurantContext);
   const backgroundColor =
     variant === "secondary" ? styling.secondaryColor : styling.primaryColor;
   return (
     <button
       onClick={onClick}
-      style={{ backgroundColor }}
+      style={{ backgroundColor, ...style }}
       className="px-12 py-4"
     >
       {children}
