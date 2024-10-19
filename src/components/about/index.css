@@ -10,6 +10,7 @@
   #about {
     flex-direction: column-reverse;
     gap: 3rem;
+    margin-bottom: 3rem;
   }
   #about > div:first-child {
     margin-right: 0px;
