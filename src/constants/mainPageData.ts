@@ -25,7 +25,7 @@ export const mainPageData: Restaurant = {
     ],
   },
   about: {
-    title: "Skapa Din Restauranghemsida Enkelt och Billigt!",
+    title: "Skapa din restauranghemsida enkelt och billigt!",
     image:
       "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=3573&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     sections: [
