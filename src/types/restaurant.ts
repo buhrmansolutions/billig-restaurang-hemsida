@@ -42,4 +42,5 @@ export type Restaurant = {
     email?: string;
     embeddedMap?: string;
   };
+  keywords?: Array<string>;
 };

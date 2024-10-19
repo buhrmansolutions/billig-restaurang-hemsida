@@ -326,4 +326,5 @@ export const example: Restaurant = {
     embeddedMap:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.0069909146202!2d18.00037977730163!3d59.33283711073989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7628580c55c7%3A0xc7530a2aaa39b6d6!2sKristineberg!5e0!3m2!1sen!2sse!4v1729262029347!5m2!1sen!2sse",
   },
+  keywords: ["gatukök", "stockholm", "mat", "lunch"],
 };

@@ -14,6 +14,9 @@ const nextConfig = {
       {
         hostname: "drive.usercontent.google.com",
       },
+      {
+        hostname: "i.postimg.cc",
+      },
     ],
   },
 };

@@ -2,7 +2,7 @@ import { Restaurant } from "@/types";
 
 export const mainPageData: Restaurant = {
   name: "Restaurang-hemsidor",
-  logo: "https://drive.usercontent.google.com/download?id=1Nu3Qjw6h46k6QYVbDDpDmW5tc0xRfXTA&authuser=0",
+  logo: "https://i.postimg.cc/FsFGJR4m/logo-1.png",
   styling: {
     primaryColor: "#4A6F44",
     secondaryColor: "grey",
