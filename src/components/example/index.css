@@ -1,0 +1,31 @@
+#example p {
+  color: var(--gray);
+}
+
+#example p:not(:first-child) {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  #example {
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  #example > div:first-child {
+    margin-right: 0px;
+    height: 300px;
+  }
+  #example .flex-1 {
+    flex: unset;
+  }
+  #example > div:last-child {
+    margin-right: 0px;
+  }
+  #example img {
+    height: 300px !important;
+  }
+  #example button {
+    width: 100%;
+  }
+}

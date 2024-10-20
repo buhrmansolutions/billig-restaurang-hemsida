@@ -6,6 +6,7 @@ import {
   Header,
   Packages,
   Wallpaper,
+  Example,
 } from "@/components";
 import { mainPageData } from "@/constants";
 import { RestaurantContext } from "@/contexts";
@@ -18,6 +19,7 @@ export default function Home() {
           <Header />
           <Wallpaper />
           <About />
+          <Example />
           <Packages />
           <Footer />
           <Copyright />

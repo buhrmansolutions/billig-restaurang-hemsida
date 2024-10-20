@@ -6,7 +6,7 @@ const PACKAGES = [
   {
     title: "Basic",
     price: "199kr",
-    url: "mailto:joel@buhrmansolutions.com?subject=Intresse av paket basic!",
+    url: "mailto:hej@buhrmansolutions.com?subject=Intresse av paket basic!",
     bullets: [
       "Subdomän",
       "Enkel uppsättning",
@@ -19,7 +19,7 @@ const PACKAGES = [
   {
     title: "Premium",
     price: "599kr",
-    url: "mailto:joel@buhrmansolutions.com?subject=Intresse av paket premium!",
+    url: "mailto:hej@buhrmansolutions.com?subject=Intresse av paket premium!",
     bullets: [
       "Egen domän",
       "Enkel uppsättning",

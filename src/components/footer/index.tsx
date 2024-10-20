@@ -8,39 +8,43 @@ export const Footer = () => {
   const { footer, menuItems } = useContext(RestaurantContext);
   const { embeddedMap, openingHours, instagram, facebook, phone, email } =
     footer;
+
   return (
     <div
       id="footer"
       className="px-56 w-full py-16 flex flex-row justify-between gap-16"
     >
-      {openingHours && (
-        <div className="flex-1 ">
-          <h3 className="mb-8">Öppettider</h3>
-          {openingHours.map(({ label, time }) => (
-            <div className="flex flex-row justify-between w-56" key={label}>
-              <p>{label}</p>
-              <p>{time}</p>
-            </div>
-          ))}
-          {(phone || email) && (
-            <>
-              <h3 className="my-8">Kontakt</h3>
-              {phone && (
-                <div className="flex flex-row justify-between w-56">
-                  <p>Telefon</p>
-                  <a href={`tel:${phone}`}>{phone}</a>
-                </div>
-              )}
-              {email && (
-                <div className="flex flex-row justify-between w-56">
-                  <p>E-mail</p>
-                  <a href={`mailto:${email}`}>{email}</a>
-                </div>
-              )}
-            </>
-          )}
-        </div>
-      )}
+      <div className="flex-1">
+        {openingHours && (
+          <>
+            <h3 className="mb-8">Öppettider</h3>
+            {openingHours.map(({ label, time }) => (
+              <div className="flex flex-row justify-between w-64" key={label}>
+                <p>{label}</p>
+                <p>{time}</p>
+              </div>
+            ))}
+          </>
+        )}
+        {(phone || email) && (
+          <>
+            <h3 className="my-8">Kontakt</h3>
+            {phone && (
+              <div className="flex flex-row justify-between w-64">
+                <p>Telefon</p>
+                <a href={`tel:${phone}`}>{phone}</a>
+              </div>
+            )}
+            {email && (
+              <div className="flex flex-row justify-between w-64">
+                <p>E-mail</p>
+                <a href={`mailto:${email}`}>{email}</a>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+
       <div className="flex-1">
         <div className="flex flex-row gap-x-4 w-full justify-center">
           {menuItems.map(({ label, src }) => (
@@ -72,12 +76,19 @@ export const Footer = () => {
           )}
         </div>
       </div>
-      {embeddedMap && (
-        <div className="flex-1">
-          <h3 className="mb-8">Hitta hit</h3>
-          <iframe src={embeddedMap} width="100%" height="auto" loading="lazy" />
-        </div>
-      )}
+      <div className="flex-1">
+        {embeddedMap && (
+          <>
+            <h3 className="mb-8">Hitta hit</h3>
+            <iframe
+              src={embeddedMap}
+              width="100%"
+              height="auto"
+              loading="lazy"
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 };

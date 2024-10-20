@@ -10,6 +10,7 @@ export const mainPageData: Restaurant = {
   menuItems: [
     { label: "Om oss", src: "#about" },
     { label: "Paket", src: "#packages" },
+    { label: "Exempelsida", src: "#example" },
     { label: "Kontakt", src: "#footer" },
   ],
   wallpaper: {
@@ -30,7 +31,7 @@ export const mainPageData: Restaurant = {
       "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=3573&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     sections: [
       "Välkommen till restaurang-hemsidor.se – din lösning för en enkel och prisvärd hemsida! Vi erbjuder restauranger ett smidigt sätt att synas online utan krångel. För endast 199 kr per månad får du en subdomän på vår plattform, perfekt för att nå ut till dina kunder. Vill du ha en egen domän? Inga problem! För 499 kr per månad får du en professionell adress, som min-restaurang.se.",
-      "Att skapa din hemsida har aldrig varit enklare. Kontakta oss på joel@buhrmansolutions.com och skicka en lista med ditt restaurangnamn, slogan, adress, menyer, några bilder, kontaktuppgifter och en kort text. Vi tar hand om resten! Inga bindningstider – du har full kontroll. Efter att du skickat dina uppgifter kommer vi att sätta upp din hemsida och skicka en länk så att du kan se hur den kommer att se ut. Du bestämmer sedan om du vill publicera den.",
+      "Att skapa din hemsida har aldrig varit enklare. Kontakta oss på hej@buhrmansolutions.com och skicka en lista med ditt restaurangnamn, slogan, adress, menyer, några bilder, kontaktuppgifter och en kort text. Vi tar hand om resten! Inga bindningstider – du har full kontroll. Efter att du skickat dina uppgifter kommer vi att sätta upp din hemsida och skicka en länk så att du kan se hur den kommer att se ut. Du bestämmer sedan om du vill publicera den.",
       "Vill du se hur en hemsida kan se ut? Besök gärna vår exempelhemsida på restaurang-hemsidor.se/exempel för inspiration och för att få en känsla för vad vi kan åstadkomma.",
       "Ge din restaurang den synlighet den förtjänar! Ta steget mot en professionell online-närvaro med restaurang-hemsidor.se. Kontakta oss idag och låt oss hjälpa dig att nå ut till fler kunder!",
     ],
@@ -314,16 +315,6 @@ export const mainPageData: Restaurant = {
     },
   ],
   footer: {
-    facebook: "www.facebook.com",
-    instagram: "www.instagram.com",
-    openingHours: [
-      { label: "Mån-Fre", time: "08-18" },
-      { label: "Lör", time: "10-18" },
-      { label: "Sön", time: "Stängt" },
-    ],
-    phone: "0707070707",
-    email: "abc@example-domain.com",
-    embeddedMap:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.0069909146202!2d18.00037977730163!3d59.33283711073989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7628580c55c7%3A0xc7530a2aaa39b6d6!2sKristineberg!5e0!3m2!1sen!2sse!4v1729262029347!5m2!1sen!2sse",
+    email: "hej@buhrmansolutions.com",
   },
 };
