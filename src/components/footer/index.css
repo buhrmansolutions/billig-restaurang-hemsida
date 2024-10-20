@@ -3,6 +3,14 @@
   color: var(--white);
 }
 
+#footer p {
+  color: var(--white);
+}
+
+#footer > div:first-child > h4:not(:first-child) {
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 640px) {
   #footer {
     flex-direction: column;

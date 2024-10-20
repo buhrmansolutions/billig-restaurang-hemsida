@@ -19,6 +19,11 @@
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: var(--font-size-medium);
+  color: var(--gray);
+}
+
 h1 {
   font-size: var(--font-size-extra-large);
   font-weight: var(--bold);
@@ -28,6 +33,14 @@ h2 {
   font-weight: var(--bold);
 }
 h3 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--bold);
+}
+h4 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--bold);
+}
+h5 {
   font-size: var(--font-size-medium);
   font-weight: var(--bold);
 }

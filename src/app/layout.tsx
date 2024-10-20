@@ -33,6 +33,25 @@ export async function generateMetadata() {
           href: mainPageData.logo,
         },
       ],
+      apple: mainPageData.logo,
+      other: {
+        url: mainPageData.logo,
+      },
+    },
+    openGraph: {
+      title: "Billiga restauranghemsidor",
+      description: "Skapa en Hemsida för Din Restaurang - Enkelt och Billigt",
+      url: "https://restaurang-hemsidor.se",
+      siteName: "Restaurang-hemsidor.se",
+      images: [
+        {
+          url: mainPageData.logo,
+          width: 600,
+          height: 600,
+        },
+      ],
+      locale: "sv_SE",
+      type: "website",
     },
   };
 }
@@ -43,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="sv">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

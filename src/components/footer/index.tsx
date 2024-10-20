@@ -17,7 +17,7 @@ export const Footer = () => {
       <div className="flex-1">
         {openingHours && (
           <>
-            <h3 className="mb-8">Öppettider</h3>
+            <h4 className="mb-8">Öppettider</h4>
             {openingHours.map(({ label, time }) => (
               <div className="flex flex-row justify-between w-64" key={label}>
                 <p>{label}</p>
@@ -28,7 +28,7 @@ export const Footer = () => {
         )}
         {(phone || email) && (
           <>
-            <h3 className="my-8">Kontakt</h3>
+            <h4 className="mb-8">Kontakta oss</h4>
             {phone && (
               <div className="flex flex-row justify-between w-64">
                 <p>Telefon</p>
@@ -48,9 +48,9 @@ export const Footer = () => {
       <div className="flex-1">
         <div className="flex flex-row gap-x-4 w-full justify-center">
           {menuItems.map(({ label, src }) => (
-            <h3 key={label}>
+            <h5 key={label}>
               <Link href={src}>{label}</Link>
-            </h3>
+            </h5>
           ))}
         </div>
         <div className="flex flex-row w-full justify-center gap-x-4 mt-8">
@@ -79,7 +79,7 @@ export const Footer = () => {
       <div className="flex-1">
         {embeddedMap && (
           <>
-            <h3 className="mb-8">Hitta hit</h3>
+            <h4 className="mb-8">Hitta hit</h4>
             <iframe
               src={embeddedMap}
               width="100%"

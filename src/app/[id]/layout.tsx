@@ -17,6 +17,10 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
           href: restaurant.logo,
         },
       ],
+      apple: restaurant.logo,
+      other: {
+        url: restaurant.logo,
+      },
     },
     keywords: ["restaurang", ...restaurant.keywords],
   };

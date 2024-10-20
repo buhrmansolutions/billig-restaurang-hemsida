@@ -1,7 +1,7 @@
 import { Restaurant } from "@/types";
 
 export const mainPageData: Restaurant = {
-  name: "Restaurang-hemsidor",
+  name: "Restaurang-hemsidor.se",
   logo: "https://i.postimg.cc/FsFGJR4m/logo-1.png",
   styling: {
     primaryColor: "#4A6F44",
@@ -30,10 +30,10 @@ export const mainPageData: Restaurant = {
     image:
       "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=3573&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     sections: [
-      "Välkommen till restaurang-hemsidor.se – din lösning för en enkel och prisvärd hemsida! Vi erbjuder restauranger ett smidigt sätt att synas online utan krångel. För endast 199 kr per månad får du en subdomän på vår plattform, perfekt för att nå ut till dina kunder. Vill du ha en egen domän? Inga problem! För 499 kr per månad får du en professionell adress, som min-restaurang.se.",
-      "Att skapa din hemsida har aldrig varit enklare. Kontakta oss på hej@buhrmansolutions.com och skicka en lista med ditt restaurangnamn, slogan, adress, menyer, några bilder, kontaktuppgifter och en kort text. Vi tar hand om resten! Inga bindningstider – du har full kontroll. Efter att du skickat dina uppgifter kommer vi att sätta upp din hemsida och skicka en länk så att du kan se hur den kommer att se ut. Du bestämmer sedan om du vill publicera den.",
-      "Vill du se hur en hemsida kan se ut? Besök gärna vår exempelhemsida på restaurang-hemsidor.se/exempel för inspiration och för att få en känsla för vad vi kan åstadkomma.",
-      "Ge din restaurang den synlighet den förtjänar! Ta steget mot en professionell online-närvaro med restaurang-hemsidor.se. Kontakta oss idag och låt oss hjälpa dig att nå ut till fler kunder!",
+      "Välkommen till billiga restaurang-hemsidor.se – din lösning för en enkel och prisvärd hemsida! Vi erbjuder restauranger ett smidigt sätt att synas online utan krångel. Med våra tjänster får du en professionell hemsida utan att behöva oroa dig för tekniska detaljer. För endast 199 kr per månad får du en subdomän på vår plattform, perfekt för att nå ut till dina kunder. Vill du ha en egen domän? Inga problem! För 499 kr per månad får du en professionell adress, som min-restaurang.se, som ger din verksamhet en seriös och trovärdig profil.",
+      "Att skapa din hemsida har aldrig varit enklare. Vi tar hand om hela processen, så du slipper all administration! Kontakta oss på hej@buhrmansolutions.com och skicka en lista med ditt restaurangnamn, slogan, adress, menyer, några bilder, kontaktuppgifter och en kort text. Vi sätter snabbt upp din hemsida och skickar en länk så att du kan se hur den kommer att se ut. Du har full kontroll över publiceringen och det finns inga bindningstider – du bestämmer helt själv när och hur du vill gå vidare.",
+      "Vill du se hur en hemsida kan se ut? Besök gärna vår exempelhemsida på billiga restaurang-hemsidor.se/exempel för inspiration och för att få en känsla för vad vi kan åstadkomma. Här kan du se hur vi anpassar design och funktioner för att passa just din restaurangs unika stil.",
+      "Ge din restaurang den synlighet den förtjänar! Ta steget mot en professionell online-närvaro med billiga restaurang-hemsidor.se. Med vår snabba och enkla process behöver du inte sköta någon administration själv. Kontakta oss idag och låt oss hjälpa dig att nå ut till fler kunder och öka din synlighet online!",
     ],
   },
   menu: [
@@ -316,5 +316,6 @@ export const mainPageData: Restaurant = {
   ],
   footer: {
     email: "hej@buhrmansolutions.com",
+    instagram: "https://www.instagram.com/restauranghemsidor/",
   },
 };

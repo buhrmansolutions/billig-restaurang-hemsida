@@ -3,12 +3,12 @@
 }
 
 @media screen and (max-width: 640px) {
-  #packages {
+  #packages > div {
     flex-direction: column;
     gap: 3rem;
   }
 
-  #packages > div {
+  #packages > div > div {
     width: 100%;
   }
 }
