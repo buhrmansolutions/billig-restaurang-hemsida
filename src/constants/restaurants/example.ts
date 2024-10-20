@@ -248,15 +248,25 @@ export const example: Restaurant = {
           category: "Kött",
           items: [
             {
-              title: "Köttbullar med gräddsås",
-              description:
-                "Traditionella köttbullar serverade med potatismos och lingonsylt.",
-              price: "140kr",
+              title: "Köttfärssås med pasta",
+              description: "Klassisk köttfärssås serverad med spaghetti.",
+              price: "130kr",
             },
             {
-              title: "Pulled pork",
-              description: "Mörad fläskkött serverat i bröd med coleslaw.",
-              price: "150kr",
+              title: "Burgare med pommes",
+              description: "Saftig hamburgare med ost och krispiga pommes.",
+              price: "160kr",
+            },
+            {
+              title: "Köttgryta",
+              description: "Mör köttgryta med rotfrukter och örter.",
+              price: "180kr",
+            },
+            {
+              title: "Biff med bearnaisesås",
+              description:
+                "Grillad biff serverad med bearnaisesås och potatis.",
+              price: "220kr",
             },
           ],
         },
@@ -264,14 +274,25 @@ export const example: Restaurant = {
           category: "Fågel",
           items: [
             {
-              title: "Kycklingsallad",
-              description: "Fräsch sallad med grillad kyckling och dressing.",
-              price: "130kr",
+              title: "Kycklingwrap",
+              description: "Wrap med grillad kyckling och fräscha grönsaker.",
+              price: "140kr",
             },
             {
-              title: "Kycklingwrap",
-              description: "Wrap med kyckling, grönsaker och tzatziki.",
-              price: "120kr",
+              title: "Kyckling Caesar-sallad",
+              description:
+                "Fräsch sallad med grillad kyckling, romaine och dressing.",
+              price: "160kr",
+            },
+            {
+              title: "Kycklingklubba",
+              description: "Ugnsbakad kycklingklubba med kryddor.",
+              price: "150kr",
+            },
+            {
+              title: "Fyllt kycklingbröst",
+              description: "Kycklingbröst fyllt med spenat och fetaost.",
+              price: "180kr",
             },
           ],
         },
@@ -279,14 +300,24 @@ export const example: Restaurant = {
           category: "Fisk",
           items: [
             {
-              title: "Fiskfilé med citron",
-              description: "Grillad fiskfilé med citron och örtsmör.",
-              price: "160kr",
+              title: "Tonfisk-sallad",
+              description: "Fräsch tonfisk-sallad med grönsaker och ägg.",
+              price: "140kr",
             },
             {
-              title: "Tonfisksallad",
-              description: "Sallad med tonfisk, ägg och gröna bönor.",
-              price: "140kr",
+              title: "Fiskpinnar med remouladsås",
+              description: "Krispiga fiskpinnar serverade med remouladsås.",
+              price: "130kr",
+            },
+            {
+              title: "Ugnsbakad lax",
+              description: "Laxfilé med citron och dill, serverad med quinoa.",
+              price: "190kr",
+            },
+            {
+              title: "Fisk tacos",
+              description: "Tacos med panerad fisk, grönsaker och sås.",
+              price: "170kr",
             },
           ],
         },
@@ -294,19 +325,24 @@ export const example: Restaurant = {
           category: "Vegetariskt",
           items: [
             {
-              title: "Pasta med pesto",
-              description: "Pasta med grön pesto och grönsaker.",
-              price: "110kr",
-            },
-            {
-              title: "Grönsaksbiffar",
-              description: "Biffar av blandade grönsaker serverade med aioli.",
+              title: "Falafel med hummus",
+              description: "Krispiga falaflar serverade med hummus och pita.",
               price: "120kr",
             },
             {
-              title: "Soppa med röda linser",
-              description: "Varm och kryddig soppa med röda linser och spenat.",
-              price: "100kr",
+              title: "Caprese-sallad",
+              description: "Tomat- och mozzarellasalad med basilika.",
+              price: "130kr",
+            },
+            {
+              title: "Vegetarisk curry",
+              description: "Kryddig curry med kikärtor och kokosmjölk.",
+              price: "150kr",
+            },
+            {
+              title: "Grönsakssoppa",
+              description: "Värmande soppa med säsongens grönsaker.",
+              price: "110kr",
             },
           ],
         },
