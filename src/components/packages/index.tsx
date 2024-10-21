@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../button";
 import "./index.css";
+import { Social } from "../social";
 
 const PACKAGES = [
   {
@@ -32,8 +33,12 @@ const PACKAGES = [
 ];
 export const Packages = () => {
   return (
-    <div id="packages" className="w-full px-56 pt-24 text-center pb-24">
+    <div
+      id="packages"
+      className="w-full px-56 pt-24 text-center pb-24 relative"
+    >
       <h3 className="mb-8">Våra paket</h3>
+      <Social />
       <p>
         Vi förstår att varje restaurang har sina egna behov och budgetar, därför
         erbjuder vi två olika typer av paket: Basic och Premium. Oavsett vilket

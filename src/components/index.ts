@@ -7,3 +7,4 @@ export * from "./footer";
 export * from "./copyright";
 export * from "./packages";
 export * from "./example";
+export * from "./social";

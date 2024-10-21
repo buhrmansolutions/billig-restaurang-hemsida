@@ -2,3 +2,6 @@
   background-color: var(--dark-gray);
   color: var(--white);
 }
+#copyright p {
+  font-size: var(--font-size-micro);
+}
