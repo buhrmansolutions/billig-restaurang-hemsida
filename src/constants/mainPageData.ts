@@ -317,5 +317,6 @@ export const mainPageData: Restaurant = {
   footer: {
     email: "hej@buhrmansolutions.com",
     instagram: "https://www.instagram.com/restauranghemsidor/",
+    facebook: "https://www.facebook.com/profile.php?id=61567366563127",
   },
 };
