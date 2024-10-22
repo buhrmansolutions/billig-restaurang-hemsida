@@ -32,10 +32,7 @@ const PACKAGES = [
 ];
 export const Packages = () => {
   return (
-    <div
-      id="packages"
-      className="w-full px-56 pt-24 text-center pb-24 relative"
-    >
+    <div id="packages" className="w-full px-56 text-center relative">
       <h3 className="mb-8">Våra paket</h3>
       <p>
         Vi förstår att varje restaurang har sina egna behov och budgetar, därför

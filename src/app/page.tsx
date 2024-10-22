@@ -15,14 +15,16 @@ export default function Home() {
   return (
     <RestaurantContext.Provider value={mainPageData}>
       <div className="min-h-screen">
-        <main className="flex flex-col row-start-2 items-center sm:items-start">
+        <main className="flex flex-col row-start-2 gap-y-24 items-center sm:items-start">
           <Header />
           <Wallpaper />
+          <Packages />
           <About />
           <Example />
-          <Packages />
-          <Footer />
-          <Copyright />
+          <div className="w-full">
+            <Footer />
+            <Copyright />
+          </div>
         </main>
       </div>
     </RestaurantContext.Provider>

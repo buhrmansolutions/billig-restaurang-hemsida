@@ -80,6 +80,9 @@ body {
     padding-top: 24px;
   }
 
+  .gap-y-24 {
+    gap: 3rem;
+  }
   :root {
     --font-size-extra-large: 48px;
   }

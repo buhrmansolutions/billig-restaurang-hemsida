@@ -10,7 +10,6 @@
   #example {
     flex-direction: column;
     gap: 3rem;
-    margin-bottom: 3rem;
   }
   #example > div:first-child {
     margin-right: 0px;

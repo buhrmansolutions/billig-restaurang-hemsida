@@ -11,7 +11,7 @@ const text =
 
 export const Example = () => {
   return (
-    <div id="example" className="flex flex-row pt-24 px-56 gap-x-24 w-full">
+    <div id="example" className="flex flex-row px-56 gap-x-24 w-full">
       <div className="flex-1 relative rounded-lg overflow-hidden">
         <Image
           fill

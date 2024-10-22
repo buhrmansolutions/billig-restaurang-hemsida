@@ -24,13 +24,15 @@ export default function Page({ params }: Props) {
   return (
     <RestaurantContext.Provider value={restaurant}>
       <div className="min-h-screen">
-        <main className="flex flex-col row-start-2 items-center sm:items-start">
+        <main className="flex flex-col row-start-2 items-center gap-24 sm:items-start">
           <Header />
           <Wallpaper />
-          <About />
           <Menu />
-          <Footer />
-          <Copyright />
+          <About />
+          <div className="w-full">
+            <Footer />
+            <Copyright />
+          </div>
         </main>
       </div>
     </RestaurantContext.Provider>
