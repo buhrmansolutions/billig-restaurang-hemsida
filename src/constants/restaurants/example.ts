@@ -2,7 +2,7 @@ import { Restaurant } from "@/types";
 
 export const example: Restaurant = {
   name: "Restaurang",
-  logo: "https://www.logoai.com/oss/icons/2021/10/27/l1eXTxm2w7TM6t9.png",
+  logo: "https://i.postimg.cc/MKkT6yzY/Example-logo-4.png",
   styling: {
     primaryColor: "#4A6F44",
     secondaryColor: "grey",

@@ -10,7 +10,15 @@ export const Header = () => {
 
   return (
     <header className="w-full px-56 py-4 flex flex-row justify-between items-center">
-      <Image src={logo} alt={logo} width={70} height={70} />
+      <Image
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: "auto", height: "70px" }}
+        src={logo}
+        alt={logo}
+      />
+
       <div id="desktop-items" className="flex gap-x-24">
         {menuItems.map(({ src, label }) => (
           <Link key={label} className="font-medium font-semibold" href={src}>
