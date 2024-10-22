@@ -5,3 +5,7 @@
 i {
   color: var(--light-gray);
 }
+
+#menu h3 {
+  cursor: pointer;
+}

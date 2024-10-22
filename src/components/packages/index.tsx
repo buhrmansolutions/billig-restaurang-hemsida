@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "../button";
 import "./index.css";
-import { Social } from "../social";
 
 const PACKAGES = [
   {
@@ -19,7 +18,7 @@ const PACKAGES = [
   },
   {
     title: "Premium",
-    price: "599kr",
+    price: "499kr",
     url: "mailto:hej@buhrmansolutions.com?subject=Intresse av paket premium!",
     bullets: [
       "Egen domän",
@@ -38,7 +37,6 @@ export const Packages = () => {
       className="w-full px-56 pt-24 text-center pb-24 relative"
     >
       <h3 className="mb-8">Våra paket</h3>
-      <Social />
       <p>
         Vi förstår att varje restaurang har sina egna behov och budgetar, därför
         erbjuder vi två olika typer av paket: Basic och Premium. Oavsett vilket
