@@ -9,3 +9,7 @@ i {
 #menu h3 {
   cursor: pointer;
 }
+
+#menu p {
+  color: var(--black);
+}
